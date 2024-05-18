@@ -1,1 +1,90 @@
+\documentclass[a4paper, 14pt]{article} %{article}
+\usepackage{arxiv}
 
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{doi}
+\usepackage[hidelinks]{hyperref}
+\usepackage{subfigure}
+\usepackage{bm}
+\usepackage{fontawesome}
+\usepackage{verbatim}
+\usepackage{comment}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{diagbox}
+
+
+\title{Методы машинного обучения для функционального картирования мозга}
+
+\author{Арина~Чумаченко  \\
+	МФТИ, Сколтех\\
+	\texttt{chumachenko.as@phystech.edu} \\
+	%% examples of more authors
+	\And
+	Максим Шараев \\
+	Сколтех\\
+	\texttt{M.Sharaev@skoltech.ru} \\
+	%% \AND
+	%% Coauthor \\
+	%% Affiliation \\
+	%% Address \\
+	%% \texttt{email} \\
+	%% \And
+	%% Coauthor \\
+	%% Affiliation \\
+	%% Address \\
+	%% \texttt{email} \\
+	%% \And
+	%% Coauthor \\
+	%% Affiliation \\
+	%% Address \\
+	%% \texttt{email} \\
+}
+\date{}
+
+\renewcommand{\shorttitle}
+% {\textit{arXiv} Template}
+
+%%% Add PDF metadata to help others organize their library
+%%% Once the PDF is generated, you can check the metadata with
+%%% $ pdfinfo template.pdf
+\hypersetup{
+pdftitle={A template for the arxiv style},
+pdfsubject={q-bio.NC, q-bio.QM},
+pdfauthor={David S.~Hippocampus, Elias D.~Striatum},
+pdfkeywords={First keyword, Second keyword, More},
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    \input{abstract.tex}
+\end{abstract}
+
+
+\keywords{: \, CNN на основе поверхностного слоя \and fMRI в состоянии покоя \and ICA с фиксированной точкой}
+
+
+\input{intro}
+
+\input{methods}
+
+\input{experiments}
+
+\input{conclusion}
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}

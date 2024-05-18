@@ -1,4 +1,6 @@
-## MICCAI 2020 Experiment
+## MICCAI Experiment
+
+From [original github](https://github.com/sabunculab/brainsurfcnn.git)
 
 In all the scripts, please replace `PROJECT_DIR` to point to the root directory of this repository. `submit.sh` is also provided for Slurm job queue.
 Please run the scripts in the following order:

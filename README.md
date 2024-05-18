@@ -9,4 +9,8 @@
 Abstract
 ========
 
-Functional neuroimaging research commonly uses either task-based or resting-state paradigms to study brain function. Resting-state approaches provide flexibility and scalability in characterizing brain function, while task-based techniques offer superior localization capabilities. One of these models is BrainsurfCNN, a surface-based fully-convolutional neural network model that utilizes the brain's cortical sheet representation. There is also another approach for solving the functional brain mapping problem, this is Spatially constrained Independent Component Analysis (ICA) for Functional Magnetic Resonance Imaging (fMRI) that utilizes spatial information within the framework of constrained ICA with fixed-point learning. The main goal of this work is to create a model that take a 4D-tensor of brain characteristics as input and return the map with the necessary labels.
+В исследованиях функциональной нейровизуализации для изучения функций мозга обычно используются подходы, основанные на задачах или состоянии покоя. 
+Подходы, основанные на состоянии покоя, обеспечивают гибкость и масштабируемость при оценке функций мозга, в то время как методы, основанные на задачах, обеспечивают качественные возможности локализации. 
+Одной из таких моделей является BrainsurfCNN, сверточная модель нейронной сети на основе поверхностного слоя коры головного мозга. 
+Основная цель этой работы заключается в решении задачи сегментации функциональных областей fMRI снимком головного мозга, то есть в создании модели, которая принимает в качестве входных данных 4D-тензор характеристик мозга и возвращает карту с необходимыми метками. 
+В частности, целью является снижение индексности данных о функциональной связности в состоянии покоя при построении карт активации.
